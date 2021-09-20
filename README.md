@@ -1,2 +1,4 @@
 # practices
-Mini-programming for my personal hands-on learning. ** NOT PROJECTS OR PART OF PORTFOLIO
+Mini-programming for my personal hands-on learning.
+
+**THESE ARE NOT PROJECTS NOR ARE THEY PART OF THE PORTFOLIO
