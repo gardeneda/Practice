@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; Doing this means that if they dont have the font, try the next one */
+  /* Font embedding if you want everyone to see the same font*/
+}
+
+/* The body, a parent element will center everything inside
+that doesn't have a width set with the text-align: center. */
+
+
+h1 {
+  margin: 50px auto 0 auto;
+  /*width: 10%; Doing this would not make the <h1> heading to be centered*/
+  /*margin: 0 auto; Setting it to auto will help keep the text-align
+                         defined in the body */
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;/* 90px Using px is not a dynamic size */
+  /* Using the rem is the least error prone*/
+  /*
+  em; M  - M is thewidth of the capital letter M,
+  then you're saying that you want the font size to be 1 times the width of the capital M
+
+  16px = 100% = 1em
+
+  font size gets inherited and added on top of whatever it got from its parent.
+  To avoid this one of the things we've got in the latest version of CSS (CSS3)
+  is something called the "rem", and this refers to the root em.
+
+  This means that it will ignore all of the parent's settings and just to set it
+  to its value relative to its root.
+  */
+
+  color: #66BFBF;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.pro {
+  text-decoration: underline;
+}
+
+.top_container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+/* .middle_container {
+
+}
+
+.bottom_container {
+
+} */
+
+.profile-picture {
+  width: 300px;
+  position: relative;
+  top: 15px;
+}
+
+.cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud-2 {
+  position:absolute;
+  left: 300px;
+}
+/**************************** NOTES *************************/
+
+/* span {
+  display: block;
+}
+
+p {
+  display: inline;
+}
+
+p {
+  display: inline-block;
+}
+
+p {
+  display: none;
+  visibility: hidden; Makes the element disappear but keep its position
+                      and the other elements float around it.
+}*/

@@ -1,0 +1,36 @@
+/********************************* TAG SELECTORS ***********************/
+
+
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+/*
+img {
+  background-color: red;
+}
+*/
+
+img:hover /* If there is a : in front of an element, it is a pseudoclass*/{
+  background-color: gold;
+}
+
+/*************************** CLASS SELECTORS ************************/
+
+.bacon {
+  background-color: green;
+}
+
+.broccoli {
+  background-color: red;
+}
+
+.circular {
+  border-radius: 100%;
+}
+/*************************** ID SELECTORS *********************/
+
+#heading {
+  color: blue;
+}
